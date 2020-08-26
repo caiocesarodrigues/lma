@@ -117,10 +117,28 @@
                 <div id="hero-image-parallax">
                     <div id="hero-bg-image" style="background-image:url( .jpg)">
                         <div class="hero-video-wrapper">
-                            <video loop muted class="bgvid">
+                            <!--<video loop muted class="bgvid">
                                 <source src="https://caiocesarodrigues.github.io/lmaa/assets/images/01.mp4" type="video/mp4">
-                                <source src="https://caiocesarodrigues.github.io/lmaa/assets/images/01.webm" type="video/webm">
+                                <source src="https://caiocesarodrigues.github.io/lma/assets/images/01.webm" type="video/webm">
+                            </video>-->
+                            <video autoplay="" muted="" loop="" controls="" class="html5-video" >
+                              <source src="https://caiocesarodrigues.github.io/lmaa/assets/images/01.mp4" type="video/mp4" 
+                              data-forcerewind="on"
+                                        data-volume="mute"
+                                        data-videowidth="100%"
+                                        data-videoheight="100%"
+                                        data-videomp4="https://caiocesarodrigues.github.io/lmaa/assets/images/01.mp4"
+                                        data-videopreload="auto"
+                                        data-videoloop="loop"
+                                        data-forceCover="1"
+                                        data-aspectratio="16:9"
+                                        data-autoplay="true"
+                                        data-autoplayonlyfirsttime="false"
+                                        />
+                            
                             </video>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -374,6 +392,7 @@
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpK1sWi3J3EbUOkF_K4-UHzi285HyFX5M&sensor=false"></script>
 	<script src="js/plugins.js"></script>
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/revolution.extension.video.min.js"></script>
 
 
 </body>
