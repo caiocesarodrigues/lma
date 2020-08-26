@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
-Project:	Flor da Luz
+Project:	Lugares Mais Altos
 Version:	1.0
 Last change:	07/08/2020
 Assigned to:	Caio Rodrigues
-Primary use:	Portfolio de Flores 
+Primary use:	Site do LMA 
 -------------------------------------------------------------------*/
 
 @import url("css/showcase.css");
@@ -137,6 +137,9 @@ Primary use:	Portfolio de Flores
 		hyphens:         none;
 		line-height: 1.6;
 	}
+
+	.html5-video {background-color: #000; height: auto; left: 50%; min-height: 100%; min-width: 100%; position: absolute; top: 50%; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%);  width: auto; z-index: -3; }
+	iframe, embed, object {max-width: 100%;}
 	
 	pre {
 		border: 1px solid rgba(0, 0, 0, 0.1);
